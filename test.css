@@ -3,6 +3,22 @@
     padding: 0;
 }
 .test{
-    color: red;
-   cursor: pointer;
+    color: blue;
+  cursor: pointer;
+}
+.container{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction:row-reverse ;
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
 }
