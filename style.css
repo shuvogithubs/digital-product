@@ -63,7 +63,79 @@ display: flex;
     color: white;
     padding: 10px 20px;
     border: none;
+    margin-top: 10px;
    }
    .color:hover{
     color: blue;
    }
+.about-img{
+    width: 300px;
+}
+.lol{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+    font-size:80px;
+    margin-top: 10px;
+
+}
+.about-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.icon{
+    width: 80px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#000,#999,#666);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 20px 4px 35px gray;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 15px;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#000,#999,#666);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-web{
+   padding: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 250px;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
